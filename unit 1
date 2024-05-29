@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 1: Biological Bases of Behavior</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unit 1: Biological Bases of Behavior</h1>
+        <h2>FRQ Questions</h2>
+        <div class="frq">
+            <h3>Question 1</h3>
+            <p>Explain how neurotransmitters influence behavior, and describe how Prozac affects the brain.</p>
+            <h3>Answer</h3>
+            <p>Neurotransmitters are chemical messengers that travel across synapses between neurons. They can influence behavior by affecting mood, arousal, and cognition. For example, serotonin influences mood and arousal; low levels are associated with depression. Prozac is a selective serotonin reuptake inhibitor (SSRI) that increases serotonin levels in the brain by blocking reuptake, thereby improving mood and alleviating symptoms of depression.</p>
+        </div>
+        <div class="frq">
+            <h3>Question 2</h3>
+            <p>Discuss the role of the limbic system in emotion and behavior. Include the functions of the amygdala and hippocampus in your response.</p>
+            <h3>Answer</h3>
+            <p>The limbic system is a set of brain structures involved in regulating emotions, behavior, and memory. The amygdala plays a key role in processing emotions such as fear and aggression, while the hippocampus is essential for forming new memories and connecting emotions to these memories. Together, these structures influence emotional responses and behaviors related to survival and memory processing.</p>
+        </div>
+    </div>
+</body>
+</html>
