@@ -1,0 +1,175 @@
+const questions = [
+    // The first 37 questions included in the previous response.
+    {
+        question: "What is the term for the ability to perceive, understand, manage, and use emotions?",
+        options: ["Cognitive intelligence", "Emotional intelligence", "Social intelligence", "Practical intelligence"],
+        answer: "Emotional intelligence"
+    },
+    {
+        question: "What is the focus of positive psychology?",
+        options: ["Mental disorders", "Observable behaviors", "Human flourishing", "Unconscious conflicts"],
+        answer: "Human flourishing"
+    },
+    {
+        question: "Which psychological disorder is characterized by persistent feelings of sadness and loss of interest?",
+        options: ["Bipolar disorder", "Schizophrenia", "Generalized anxiety disorder", "Major depressive disorder"],
+        answer: "Major depressive disorder"
+    },
+    {
+        question: "Who is known for his work on the stages of cognitive development in children?",
+        options: ["Sigmund Freud", "B.F. Skinner", "Jean Piaget", "Erik Erikson"],
+        answer: "Jean Piaget"
+    },
+    {
+        question: "What is the term for a mental disorder characterized by delusions, hallucinations, and disorganized thinking?",
+        options: ["Obsessive-compulsive disorder", "Schizophrenia", "Panic disorder", "Post-traumatic stress disorder"],
+        answer: "Schizophrenia"
+    },
+    {
+        question: "Which type of personality test involves interpreting ambiguous stimuli?",
+        options: ["Self-report inventory", "Projective test", "Behavioral assessment", "Neuropsychological test"],
+        answer: "Projective test"
+    },
+    {
+        question: "What is the name of the bias where people tend to overestimate the extent to which their opinions, beliefs, and habits are normal and typical of those of others?",
+        options: ["Confirmation bias", "Hindsight bias", "False consensus effect", "Availability heuristic"],
+        answer: "False consensus effect"
+    },
+    {
+        question: "Which branch of psychology is concerned with the diagnosis and treatment of psychological disorders?",
+        options: ["Developmental psychology", "Cognitive psychology", "Clinical psychology", "Social psychology"],
+        answer: "Clinical psychology"
+    },
+    {
+        question: "What is the term for the phenomenon where repeated exposure to a stimulus increases the likelihood of liking it?",
+        options: ["Mere exposure effect", "Reciprocal liking", "Halo effect", "Priming"],
+        answer: "Mere exposure effect"
+    },
+    {
+        question: "Which part of the brain is involved in processing visual information?",
+        options: ["Frontal lobe", "Parietal lobe", "Temporal lobe", "Occipital lobe"],
+        answer: "Occipital lobe"
+    },
+    {
+        question: "What is the primary focus of social psychology?",
+        options: ["Individual differences", "Mental disorders", "Behavior in social contexts", "Physiological processes"],
+        answer: "Behavior in social contexts"
+    },
+    {
+        question: "Which type of therapy focuses on changing faulty thinking patterns and maladaptive behaviors?",
+        options: ["Humanistic therapy", "Psychoanalytic therapy", "Cognitive-behavioral therapy", "Group therapy"],
+        answer: "Cognitive-behavioral therapy"
+    },
+    {
+        question: "What is the term for the tendency to favor one's own group over other groups?",
+        options: ["Ethnocentrism", "Stereotyping", "Prejudice", "Discrimination"],
+        answer: "Ethnocentrism"
+    },
+    {
+        question: "Who is known for the concept of the collective unconscious?",
+        options: ["Sigmund Freud", "Carl Jung", "Alfred Adler", "Erik Erikson"],
+        answer: "Carl Jung"
+    },
+    {
+        question: "What is the term for a type of learning where behavior is strengthened if followed by a reinforcer and diminished if followed by a punisher?",
+        options: ["Classical conditioning", "Operant conditioning", "Observational learning", "Latent learning"],
+        answer: "Operant conditioning"
+    },
+    {
+        question: "Which psychological disorder is characterized by excessive worry about a variety of topics, events, or activities?",
+        options: ["Panic disorder", "Obsessive-compulsive disorder", "Generalized anxiety disorder", "Post-traumatic stress disorder"],
+        answer: "Generalized anxiety disorder"
+    },
+    {
+        question: "What is the primary focus of humanistic psychology?",
+        options: ["Unconscious motives", "Observable behaviors", "Self-actualization", "Cognitive processes"],
+        answer: "Self-actualization"
+    },
+    {
+        question: "Which stage in Erikson's theory of psychosocial development involves exploring personal identity and direction in life?",
+        options: ["Trust vs. Mistrust", "Autonomy vs. Shame", "Identity vs. Role Confusion", "Intimacy vs. Isolation"],
+        answer: "Identity vs. Role Confusion"
+    },
+    {
+        question: "What is the term for the process by which sensory receptors convert physical energy from the environment into neural signals?",
+        options: ["Perception", "Sensation", "Transduction", "Adaptation"],
+        answer: "Transduction"
+    },
+    {
+        question: "Who is known for the hierarchy of needs?",
+        options: ["Sigmund Freud", "B.F. Skinner", "Abraham Maslow", "Carl Rogers"],
+        answer: "Abraham Maslow"
+    },
+    {
+        question: "What is the term for a false sensory perception that seems real but occurs without external stimuli?",
+        options: ["Delusion", "Illusion", "Hallucination", "Mirage"],
+        answer: "Hallucination"
+    },
+    {
+        question: "Which type of research method involves observing subjects in their natural environment without interference?",
+        options: ["Experiment", "Survey", "Case study", "Naturalistic observation"],
+        answer: "Naturalistic observation"
+    },
+    {
+        question: "What is the term for a mental shortcut that allows people to solve problems and make judgments quickly and efficiently?",
+        options: ["Algorithm", "Heuristic", "Insight", "Schema"],
+        answer: "Heuristic"
+    },
+    {
+        question: "Which part of the brain is primarily responsible for processing auditory information?",
+        options: ["Frontal lobe", "Parietal lobe", "Temporal lobe", "Occipital lobe"],
+        answer: "Temporal lobe"
+    },
+    {
+        question: "What is the term for the psychological phenomenon where individuals believe they predicted an event after it has already occurred?",
+        options: ["Confirmation bias", "Hindsight bias", "Self-serving bias", "Fundamental attribution error"],
+        answer: "Hindsight bias"
+    },
+    {
+        question: "Who developed the stages of moral development theory?",
+        options: ["Jean Piaget", "Lawrence Kohlberg", "Erik Erikson", "B.F. Skinner"],
+        answer: "Lawrence Kohlberg"
+    },
+    {
+        question: "What is the term for a relatively permanent change in behavior due to experience?",
+        options: ["Learning", "Memory", "Perception", "Sensation"],
+        answer: "Learning"
+    },
+    {
+        question: "Which type of memory involves the conscious recall of information, such as facts and events?",
+        options: ["Procedural memory", "Implicit memory", "Declarative memory", "Sensory memory"],
+        answer: "Declarative memory"
+    },
+    {
+        question: "What is the term for a mood disorder characterized by alternating periods of depression and mania?",
+        options: ["Major depressive disorder", "Bipolar disorder", "Cyclothymic disorder", "Dysthymia"],
+        answer: "Bipolar disorder"
+    },
+    {
+        question: "Which part of the brain is associated with the regulation of emotions and the formation of emotional memories?",
+        options: ["Hippocampus", "Amygdala", "Cerebellum", "Thalamus"],
+        answer: "Amygdala"
+    },
+    {
+        question: "What is the term for a psychological treatment that involves talking with a mental health professional to resolve mental health issues?",
+        options: ["Pharmacotherapy", "Physical therapy", "Psychotherapy", "Occupational therapy"],
+        answer: "Psychotherapy"
+    },
+    {
+        question: "Who is known for his work on operant conditioning and the development of the operant conditioning chamber, also known as the Skinner box?",
+        options: ["Ivan Pavlov", "John Watson", "B.F. Skinner", "Edward Thorndike"],
+        answer: "B.F. Skinner"
+    },
+    {
+        question: "What is the term for the mental process of acquiring, storing, and retrieving information?",
+        options: ["Learning", "Memory", "Perception", "Cognition"],
+        answer: "Memory"
+    },
+    {
+        question: "Which type of personality disorder is characterized by a pervasive pattern of disregard for the rights of others and violation of social norms?",
+        options: ["Borderline personality disorder", "Narcissistic personality disorder", "Antisocial personality disorder", "Histrionic personality disorder"],
+        answer: "Antisocial personality disorder"
+    },
+    {
+        question: "What is the primary focus of health psychology?",
+        options: ["Mental disorders", "Behavioral processes in
