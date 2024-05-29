@@ -1,6 +1,4 @@
-const questions = [
-    // The first 37 questions
-    {
+
         question: "Which part of the brain is responsible for regulating heartbeat and breathing?",
         options: ["Cerebellum", "Medulla", "Thalamus", "Hypothalamus"],
         answer: "Medulla"
