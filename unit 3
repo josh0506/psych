@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 3: Development and Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unit 3: Development and Learning</h1>
+        <h2>FRQ Questions</h2>
+        <div class="frq">
+            <h3>Question 1</h3>
+            <p>Discuss Piaget’s stages of cognitive development and provide an example of a behavior characteristic of each stage.</p>
+            <h3>Answer</h3>
+            <p>Piaget's stages of cognitive development include the sensorimotor stage (0-2 years), where infants learn through sensory experiences and actions (e.g., object permanence); the preoperational stage (2-7 years), where children develop language and symbolic thinking but lack logical reasoning (e.g., egocentrism); the concrete operational stage (7-11 years), where children gain logical thinking about concrete events (e.g., conservation); and the formal operational stage (12+ years), where individuals develop abstract reasoning and hypothetical thinking (e.g., solving algebraic equations).</p>
+        </div>
+        <div class="frq">
+            <h3>Question 2</h3>
+            <p>Explain the process of classical conditioning, including the roles of the unconditioned stimulus, unconditioned response, conditioned stimulus, and conditioned response. Provide an example.</p>
+            <h3>Answer</h3>
+            <p>Classical conditioning is a learning process where a neutral stimulus becomes associated with a meaningful stimulus, eliciting a conditioned response. An unconditioned stimulus (US) naturally triggers an unconditioned response (UR). A neutral stimulus (NS) becomes a conditioned stimulus (CS) when paired with the US, leading to a conditioned response (CR). For example, in Pavlov's experiment, food (US) elicits salivation (UR). When a bell (NS) is repeatedly paired with food, the bell becomes a CS, and salivation in response to the bell becomes a CR.</p>
+        </div>
+    </div>
+</body>
+</html>
