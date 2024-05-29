@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 2: Cognition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unit 2: Cognition</h1>
+        <h2>FRQ Questions</h2>
+        <div class="frq">
+            <h3>Question 1</h3>
+            <p>Describe the stages of memory according to the Atkinson-Shiffrin model, and explain how information is transferred between these stages.</p>
+            <h3>Answer</h3>
+            <p>The Atkinson-Shiffrin model describes memory in three stages: sensory memory, short-term memory, and long-term memory. Sensory memory briefly holds sensory information. Attention transfers information to short-term memory, which holds information temporarily for analysis. Rehearsal and encoding transfer information to long-term memory, where it can be stored indefinitely. Retrieval processes can bring information back to short-term memory for use.</p>
+        </div>
+        <div class="frq">
+            <h3>Question 2</h3>
+            <p>Explain the difference between algorithms and heuristics in problem-solving, and provide examples of each.</p>
+            <h3>Answer</h3>
+            <p>Algorithms are step-by-step procedures that guarantee a solution, such as a mathematical formula. Heuristics are mental shortcuts that simplify decision-making but do not guarantee a solution. An example of an algorithm is the quadratic formula in mathematics. An example of a heuristic is using the rule of thumb "When in doubt, choose the middle option" when unsure about which answer to choose on a multiple-choice test.</p>
+        </div>
+    </div>
+</body>
+</html>
