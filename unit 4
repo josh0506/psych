@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 4: Social Psychology and Personality</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unit 4: Social Psychology and Personality</h1>
+        <h2>FRQ Questions</h2>
+        <div class="frq">
+            <h3>Question 1</h3>
+            <p>Describe the fundamental attribution error and provide an example of how it might affect our judgment of others.</p>
+            <h3>Answer</h3>
+            <p>The fundamental attribution error is the tendency to overemphasize personal characteristics and ignore situational factors when judging others' behavior. For example, if someone cuts us off in traffic, we might think they are a rude and inconsiderate person (dispositional attribution) rather than considering they might be rushing to an emergency (situational attribution).</p>
+        </div>
+        <div class="frq">
+            <h3>Question 2</h3>
+            <p>Explain Freud's model of the psyche, including the id, ego, and superego. Provide an example of how these components interact in decision-making.</p>
+            <h3>Answer</h3>
+            <p>Freud's model of the psyche includes the id, ego, and superego. The id operates on the pleasure principle, seeking immediate gratification. The ego operates on the reality principle, mediating between the id and reality. The superego incorporates societal and
