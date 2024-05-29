@@ -1,0 +1,179 @@
+const questions = [
+    // The first 37 questions
+    {
+        question: "Which part of the brain is responsible for regulating heartbeat and breathing?",
+        options: ["Cerebellum", "Medulla", "Thalamus", "Hypothalamus"],
+        answer: "Medulla"
+    },
+    {
+        question: "What is the primary function of the cerebellum?",
+        options: ["Processing sensory input", "Coordinating movement and balance", "Regulating emotions", "Controlling hunger and thirst"],
+        answer: "Coordinating movement and balance"
+    },
+    {
+        question: "Which neurotransmitter is most closely associated with the regulation of mood, sleep, and appetite?",
+        options: ["Dopamine", "Serotonin", "Norepinephrine", "GABA"],
+        answer: "Serotonin"
+    },
+    {
+        question: "What is the role of the hippocampus in the brain?",
+        options: ["Regulating emotions", "Storing long-term memories", "Controlling motor functions", "Processing visual information"],
+        answer: "Storing long-term memories"
+    },
+    {
+        question: "Which psychological perspective emphasizes the growth potential of healthy people?",
+        options: ["Behavioral", "Psychoanalytic", "Humanistic", "Cognitive"],
+        answer: "Humanistic"
+    },
+    {
+        question: "In classical conditioning, what is the unconditioned response (UR)?",
+        options: ["A learned response to a previously neutral stimulus", "A stimulus that elicits no response before conditioning", "A naturally occurring response to an unconditioned stimulus", "A stimulus that becomes associated with an unconditioned stimulus"],
+        answer: "A naturally occurring response to an unconditioned stimulus"
+    },
+    {
+        question: "Who is considered the father of psychoanalysis?",
+        options: ["Sigmund Freud", "Carl Jung", "Erik Erikson", "Alfred Adler"],
+        answer: "Sigmund Freud"
+    },
+    {
+        question: "What is the main focus of cognitive psychology?",
+        options: ["Unconscious motives", "Observable behaviors", "Mental processes", "Biological mechanisms"],
+        answer: "Mental processes"
+    },
+    {
+        question: "Which type of memory has the shortest duration?",
+        options: ["Sensory memory", "Short-term memory", "Long-term memory", "Working memory"],
+        answer: "Sensory memory"
+    },
+    {
+        question: "What is the term for a research method that involves an in-depth study of one individual or group?",
+        options: ["Experiment", "Survey", "Case study", "Naturalistic observation"],
+        answer: "Case study"
+    },
+    {
+        question: "Which psychological perspective focuses on how we learn observable responses?",
+        options: ["Behavioral", "Cognitive", "Humanistic", "Psychodynamic"],
+        answer: "Behavioral"
+    },
+    {
+        question: "Who developed the hierarchy of needs?",
+        options: ["Sigmund Freud", "B.F. Skinner", "Abraham Maslow", "Carl Rogers"],
+        answer: "Abraham Maslow"
+    },
+    {
+        question: "What is the primary focus of developmental psychology?",
+        options: ["Mental disorders", "Personality development", "Learning and memory", "Physical, cognitive, and social change throughout the life span"],
+        answer: "Physical, cognitive, and social change throughout the life span"
+    },
+    {
+        question: "What is the placebo effect?",
+        options: ["A beneficial effect produced by a placebo drug or treatment", "A harmful effect produced by a placebo drug or treatment", "An effect produced by a drug that is independent of its intended purpose", "A psychological response to a drug or treatment"],
+        answer: "A beneficial effect produced by a placebo drug or treatment"
+    },
+    {
+        question: "Which term refers to the diminishing of a conditioned response?",
+        options: ["Acquisition", "Extinction", "Generalization", "Discrimination"],
+        answer: "Extinction"
+    },
+    {
+        question: "Who is known for the social learning theory?",
+        options: ["Albert Bandura", "Ivan Pavlov", "Jean Piaget", "John Watson"],
+        answer: "Albert Bandura"
+    },
+    {
+        question: "Which part of the brain is most involved in forming new memories?",
+        options: ["Amygdala", "Cerebellum", "Hippocampus", "Hypothalamus"],
+        answer: "Hippocampus"
+    },
+    {
+        question: "What is the term for the body's response to stress, including the alarm, resistance, and exhaustion stages?",
+        options: ["Fight or flight response", "General adaptation syndrome", "Homeostasis", "Allostasis"],
+        answer: "General adaptation syndrome"
+    },
+    {
+        question: "What is a double-blind procedure?",
+        options: ["An experimental procedure in which both the research participants and the research staff are ignorant about whether the research participants have received the treatment or a placebo", "An observational study without any control", "A type of research design involving two different hypotheses", "An experimental procedure where neither the hypothesis nor the outcome is known to anyone involved"],
+        answer: "An experimental procedure in which both the research participants and the research staff are ignorant about whether the research participants have received the treatment or a placebo"
+    },
+    {
+        question: "Who proposed the theory of multiple intelligences?",
+        options: ["Charles Spearman", "Howard Gardner", "Robert Sternberg", "David Wechsler"],
+        answer: "Howard Gardner"
+    },
+    {
+        question: "What is the main goal of psychoanalytic therapy?",
+        options: ["To change maladaptive behaviors", "To uncover unconscious conflicts", "To improve social skills", "To enhance cognitive functioning"],
+        answer: "To uncover unconscious conflicts"
+    },
+    {
+        question: "Which type of learning occurs by watching others and imitating their behavior?",
+        options: ["Classical conditioning", "Operant conditioning", "Observational learning", "Insight learning"],
+        answer: "Observational learning"
+    },
+    {
+        question: "What is the focus of humanistic therapy?",
+        options: ["Altering irrational thoughts", "Resolving unconscious conflicts", "Promoting personal growth", "Improving social functioning"],
+        answer: "Promoting personal growth"
+    },
+    {
+        question: "Who is known for the hierarchy of needs theory?",
+        options: ["Carl Rogers", "Abraham Maslow", "Sigmund Freud", "B.F. Skinner"],
+        answer: "Abraham Maslow"
+    },
+    {
+        question: "Which type of reinforcement schedule delivers reinforcement after an unpredictable number of responses?",
+        options: ["Fixed-ratio", "Variable-ratio", "Fixed-interval", "Variable-interval"],
+        answer: "Variable-ratio"
+    },
+    {
+        question: "What is a major focus of the biological perspective in psychology?",
+        options: ["Unconscious motives", "Observable behaviors", "Mental processes", "Genetic and physiological processes"],
+        answer: "Genetic and physiological processes"
+    },
+    {
+        question: "Which part of the nervous system is responsible for the fight or flight response?",
+        options: ["Central nervous system", "Somatic nervous system", "Sympathetic nervous system", "Parasympathetic nervous system"],
+        answer: "Sympathetic nervous system"
+    },
+    {
+        question: "What is the name of the test that measures a person's preferences and interests to determine their personality type?",
+        options: ["MMPI", "TAT", "Rorschach test", "Myers-Briggs Type Indicator"],
+        answer: "Myers-Briggs Type Indicator"
+    },
+    {
+        question: "Who is associated with the theory of moral development?",
+        options: ["Jean Piaget", "Lawrence Kohlberg", "Erik Erikson", "B.F. Skinner"],
+        answer: "Lawrence Kohlberg"
+    },
+    {
+        question: "What is the term for a group of brain structures involved in processing emotions and memory?",
+        options: ["Limbic system", "Endocrine system", "Reticular formation", "Pineal gland"],
+        answer: "Limbic system"
+    },
+    {
+        question: "Which stage of sleep is characterized by rapid eye movement and vivid dreaming?",
+        options: ["Stage 1", "Stage 2", "Stage 3", "REM sleep"],
+        answer: "REM sleep"
+    },
+    {
+        question: "What is the term for the phenomenon where people are less likely to offer help in an emergency when other people are present?",
+        options: ["Social loafing", "Bystander effect", "Groupthink", "Conformity"],
+        answer: "Bystander effect"
+    },
+    {
+        question: "Which neurotransmitter is primarily involved in the control of voluntary movements and the regulation of pleasure and reward?",
+        options: ["Acetylcholine", "Dopamine", "Serotonin", "GABA"],
+        answer: "Dopamine"
+    },
+    {
+        question: "Who is known for his research on attachment in infants using the 'Strange Situation' experiment?",
+        options: ["Jean Piaget", "Mary Ainsworth", "Harry Harlow", "John Bowlby"],
+        answer: "Mary Ainsworth"
+    },
+    {
+        question: "What is the primary focus of industrial-organizational psychology?",
+        options: ["Clinical diagnosis", "Educational strategies", "Workplace behavior", "Child development"],
+        answer: "Workplace behavior"
+    },
+    {
+        question: "What is the term for the ability to perceive, understand, manage, and
