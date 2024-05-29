@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 5: Mental and Physical Health</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unit 5: Mental and Physical Health</h1>
+        <h2>FRQ Questions</h2>
+        <div class="frq">
+            <h3>Question 1</h3>
+            <p>Explain the biopsychosocial model of health and illness, and discuss its implications for understanding mental health disorders.</p>
+            <h3>Answer</h3>
+            <p>The biopsychosocial model integrates biological, psychological, and social factors to understand health and illness. It suggests that biological factors (e.g., genetics, neurochemistry) interact with psychological factors (e.g., thoughts, emotions, behaviors) and social factors (e.g., family dynamics, cultural influences, socioeconomic status) to influence health outcomes. In mental health disorders, this model emphasizes that conditions arise from a combination of biological vulnerabilities, psychological stressors, and social contexts. For example, depression may involve genetic predispositions (biological), negative thinking patterns (psychological), and stressful life events (social), highlighting the complexity of its causes and treatment.</p>
+        </div>
+        <div class="frq">
+            <h3>Question 2</h3>
+            <p>Discuss the impact of stress on physical and mental health, and explain the body's physiological response to stress.</p>
+            <h3>Answer</h3>
+            <p>Stress affects both physical and mental health by triggering physiological responses designed to cope with perceived threats. The body's stress response, known as the fight-or-flight response, involves the release of stress hormones such as adrenaline and cortisol. Physiologically, this response increases heart rate, blood pressure, and glucose levels to provide energy for immediate action. However, chronic stress can lead to prolonged activation of these responses, contributing to health problems such as hypertension, weakened immune function, and increased risk of mental health disorders like anxiety and depression. Effective stress management techniques, including relaxation exercises and social support, can help mitigate these negative effects.</p>
+        </div>
+    </div>
+</body>
+</html>
